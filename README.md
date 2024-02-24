@@ -1,1 +1,1 @@
-This is for quiz 1 containing list tag and image tag.
+Used for activities in my Trends subject
