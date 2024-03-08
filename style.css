@@ -1,0 +1,44 @@
+body {
+  background-color: lightslategray; 
+  font-family: Oswald; 
+  text-align: center; 
+}
+
+h1 {
+  text-align: center; 
+}
+
+form {
+	background-color: white;
+	font-family: Oswald;
+	margin: 0 auto;
+	width: fit-content; 
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+textarea {
+  padding: 10px; 
+  margin-bottom: 10px; 
+  border: 1px solid #ccc; 
+}
+
+input[type="radio"] {
+  margin-right: 10px; 
+}
+
+input[type="button"] {
+  padding: 10px 20px; 
+  margin-right: 10px; 
+  font-family: Oswald;
+  background-color: green; 
+  color: white; 
+  border: none;
+  cursor: pointer; 
+}
+
+input[type="button"]:hover {
+  background-color: red; 
+}
