@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/landing-page.css">
+  </head>
+
+  <body background="assets/images/adnu-bg.jpg" style="background-repeat: no-repeat; background-size: cover;
+  background-attachment: center;">
+    <header>
+      <nav class="navbar">
+        <a href="landing-page.html" style="color: white; text-decoration: none">Home</a>
+        <a href="#" style="color: white; text-decoration: none;">About Us</a>
+        <a href="#" style="color: white; text-decoration: none;">Contact</a>
+      </nav>
+    </header>
+
+    <div class="container">
+
+      <div class="profile-logo">
+        <img src="assets/images/magiquest.png" class="logo">
+
+        <div class="profile-section">  
+          
+          <div class="profileAndName">
+            <img src="assets/images/pfps/pfp01.png" class="profilePicture">
+            <p class="profile-head-text"> Simon </p>
+          </div>
+          
+          
+          <div class="no-of-mc"> <img src="assets/images/magicoin.png" class="magicoin"> <p> 69 </p> </div>
+
+          <div class="profile-text">
+            <p> Quests Completed: 13</p>
+            <p> Quests Posted: 7</p>
+            <p> Quests Failed: 3</p>
+          </div>
+
+          <div class="QuestLogsShapeAndText">
+            <div class="QuestLogShape"> </div>
+            <button id="quest-logs-button">Quest Logs</button>
+          </div>
+
+        </div>
+        
+      </div>
+
+      <div class="quest-display">
+
+        <div class="AddQuestGroup">
+
+          <div class="AddQuestButton"> </div>
+          
+          <div class="quest-search">
+          
+            <button id="AddQuestText" href="#"> Post a Quest! </button>
+            <input type="text" class="SearchBar" placeholder="     Look for a quest here..."> </input>
+
+            <div class="quest-01">
+              <img src="assets/images/pfps/pfp01.png" alt="Profile Picture">
+              <div class="title-01"> <a href="quest-accept.html" style="color: black; text-decoration: none;"> <p> LF Study Buddy! Meet up @ Bonoan :D </p> </a> </div>
+            </div>
+
+            <div class="quest-02">
+              <img src="assets/images/pfps/pfp02.png" alt="Profile Picture">
+              <div class="title-02"> <a href="quest-accept.html" style="color: black; text-decoration: none;"> <p> Need two volunteers. Meet up @ Xavier Hall! </p> </a> </div>
+            </div>
+
+            <div class="quest-03">
+              <img src="assets/images/pfps/pfp03.png" alt="Profile Picture">
+              <div class="title-03"> <a href="quest-accept.html" style="color: black; text-decoration: none;"> <p> Help me study Programming, will pay for tutoring! </p> </a> </div>
+            </div>
+
+            <div class="quest-04">
+              <img src="assets/images/pfps/pfp04.gif" alt="Profile Picture">
+              <div class="title-04"> <a href="quest-accept.html" style="color: black; text-decoration: none;"> <p> Two volunteers needed @ 4P ASAP! </p> </a> </div>
+            </div>
+            
+          </div>
+          
+        </div>
+
+      </div>
+
+    </div>
+    
+    <script>
+      document.getElementById('AddQuestText').addEventListener('click', function() {
+        alert('Redirecting to Quest Posting!')
+      });
+
+      document.getElementById('quest-logs-button').addEventListener('click', function() {
+        alert('Redirecting to Quest Logs!')
+      });
+    </script>
+    <p class="footer"> © 2024 | MagiQuest by Ateneo De Naga University | All Rights Reserved </p>
+  </body>
+</html>

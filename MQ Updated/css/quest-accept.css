@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Urbanist:ital,wght@0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Russo+One&family=Urbanist:ital,wght@0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  text-align: right;
+  overflow: hidden;
+  background-color: rgba(37, 64, 77, 1);
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Russo One', 'Sans-serif';
+}
+
+.logo {
+  margin-top: 40px;
+  margin-left: 45px;
+  max-width: 380px;
+  max-height: 380px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row; /* This line changes the default flex direction to row */
+}
+
+.profile-section {
+  width: 308px;
+  height: 401px;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-left: 78px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.profileAndTitle {
+  display: flex;
+}
+
+.profileAndName {
+  display: flex;
+}
+
+.profilePicture {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%; 
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.profile-head-text {
+  padding-bottom: 30px;
+  margin-left: 40px;
+  font-family: 'Russo One';
+  font-size: 30px;
+}
+
+.profile-text {
+  font-family: 'Russo One';
+  margin-top: -25px;
+  margin-left: 20px;
+}
+
+.QuestLogsShapeAndText {
+  width: 216px; 
+  height: 69.01px; 
+  position: relative;
+}
+
+.QuestLogShape {
+  width: 216px; 
+  height: 69.01px; 
+  left: 0px; 
+  top: 0px; 
+  position: absolute; 
+  background: #C3D3DB; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 30px;
+  margin-left: 47px;
+  margin-top: 3px;
+}
+
+#quest-logs-button {
+  width: 172.44px; 
+  height: 38.88px; 
+  left: 21px; 
+  top: 16px; 
+  position: absolute; 
+  text-align: center; 
+  color: #023047; 
+  font-size: 26px; 
+  font-family: Russo One; 
+  font-weight: 400; 
+  word-wrap: break-word;
+  margin-left: 47px;
+  margin-top: 3px;
+  border-color: transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.magicoin {
+  margin-top: -45px;
+}
+
+.no-of-mc, p {
+  display: flex;
+  font-family: 'Russo One';
+}
+
+.quest-display {
+  width: 1047px;
+  height: 650px;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-left: 65px;
+  margin-top: 30px;
+}
+
+.userProfile {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%; 
+  margin-left: 80px;
+  margin-top: 25px;
+}
+
+.quest-title {
+  width: 700px; 
+  height: 72px; 
+  background: #FFFCFC; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 19px;
+  margin-left: 78px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.title-text {
+  margin-left: 20px;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.coinAmount {
+  font-size: 20px;
+  margin-top: 25px;
+  margin-left: 70px;
+}
+
+.magicoin-reward {
+  margin-left: 5px;
+}
+
+.statAndDetailContainer {
+  display: flex;
+}
+
+.opStat {
+  width: 200px;
+  height: 300px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.opHead-text {
+  margin-left: 35px;
+  font-size: 18px;
+  color:#5c27c0
+}
+
+.opStat-text {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.quest-detail {
+  width: 700px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.quest-detail-text {
+  font-family: 'Roboto';
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.quest-buttons {
+  display: flex;
+  margin-top: 30px;
+  gap: 300px;
+}
+
+.go-back {
+  width: 200px; 
+  height: 50px; 
+  left: 0px; 
+  top: 0px;
+  background: #FFB703; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 250px;
+  margin-left: 260px;
+}
+
+.go-back, p {
+  font-family: 'Russo One';
+}
+
+.go-back-text {
+  margin-left: 45px;
+}
+
+.accept-quest {
+  width: 200px; 
+  height: 50px; 
+  left: 0px; 
+  top: 0px;
+  background: #FFB703; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 250px;
+}
+
+.accept-quest, p {
+  font-family: 'Russo One';
+}
+
+.accept-quest-text {
+  margin-left: 44px;
+}
+
+.footer {
+  padding-top: 15px;
+  font-size: 12px;
+  margin-left: 30px;
+  font-family: 'Russo One';
+}

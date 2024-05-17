@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/test.css">
+  </head>
+
+  <body background="assets/images/adnu-bg.jpg" style="background-repeat: no-repeat; background-size: cover;
+  background-attachment: center;">
+    <header>
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <div class="container">
+
+      <div class="profile-logo">
+
+        <img src="assets/images/magiquest.png" class="logo">
+
+        <div class="profile-section"> </div>
+
+      </div>
+
+      <div class="quest-display">
+
+        <div class="AddQuestGroup" style="width: 293px; height: 70px; position: relative">
+
+          <div class="AddQuestButton" style="width: 293px; height: 70px; 
+          left: 0px; top: 0px; position: absolute; background: #FFB703; 
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+          border-radius: 250px; margin-top: 25px; 
+          margin-left: 20px;">
+          </div>
+
+          <button id="AddQuestText" style="width: 248.94px; left: 23px; top: 15px; position: absolute; 
+          text-align: center; color: #313638; 
+          font-size: 33px; font-family: Russo One; font-weight: 400; 
+          word-wrap: break-word; margin-top: 25px; margin-left: 20px;
+          background-color: transparent;
+          cursor: pointer; border-color: transparent;"> Post a Quest!
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script>
+      document.getElementById('AddQuestText').addEventListener('click', function() {
+        alert('Quest Added!')
+      });
+    </script>
+
+    <p> © 2024 | MagiQuest by Ateneo De Naga University | All Rights Reserved </p>
+  </body>
+</html>

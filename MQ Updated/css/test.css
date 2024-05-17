@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Urbanist:ital,wght@0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Russo+One&family=Urbanist:ital,wght@0,800;1,800&display=swap');
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar, a {
+  text-align: right;
+  overflow: hidden;
+  background-color: rgba(37, 64, 77, 1);
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Russo One', 'Sans-serif';
+}
+
+.logo {
+  margin-top: 40px;
+  margin-left: 45px;
+  max-width: 380px;
+  max-height: 380px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row; /* This line changes the default flex direction to row */
+}
+
+.profile-section {
+  width: 308px;
+  height: 401px;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-left: 55px;
+}
+
+p {
+  padding-top: 15px;
+  margin-left: 125px;
+  font-family: 'Russo One';
+}
+
+.quest-display {
+  width: 1047px;
+  height: 650px;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-left: 95px;
+  margin-top: 20px;
+}
+
+.post-quest {
+  width: 293px; 
+  height: 70px; 
+  left: 0px; 
+  top: 0px; position: absolute; 
+  background: #FFB703; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 250px
+}
+
+.AddQuestGroup {
+  width: 293px; 
+  height: 70px; 
+  position: relative;
+}
+
+.AddQuestButton {
+  left: 0px; 
+  top: 0px; 
+  position: absolute; 
+  background: #FFB703; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 250px;
+}
+
+.AddQuestText {
+  width: 248.94px; 
+  left: 23px; 
+  top: 15px; 
+  position: absolute; 
+  text-align: center; 
+  color: #313638; 
+  font-size: 33px; 
+  font-family: Russo One; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
